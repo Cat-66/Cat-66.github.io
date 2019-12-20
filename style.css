@@ -1,0 +1,225 @@
+body{
+    overflow-x: hidden;
+    width: 100wh;
+    height: 100vh;
+    background-image: url(images/teatime\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-color: transparent;
+    line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+}
+.text-center
+{
+    text-align: center;
+    font-weight: normal;
+}
+h1
+{
+    font-size: 30;
+}
+.title
+{
+    font-weight: bolder;
+}
+.p1
+{
+    text-align: center;
+    font-size: 2.5vw;
+}
+.img
+{
+    float: left;
+    margin: 0px 0px 100px 20px;
+    border: 3px dotted black;
+}
+.f1
+{
+    text-align: center;
+    font-size: 1.6vw;
+}
+.f2
+{
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+}
+.feature,.feature1,.feature2,.feature3
+{
+    width:400px;
+    height:60px;
+    border:4px solid;
+    background:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+.feature
+{
+    color:#c0392b;
+}
+.feature1
+{
+    color:#16a085;
+}
+.feature2
+{
+    color:#f1c40f;
+}
+.feature3
+{
+    color:#2c3e50;
+}
+.feature::before,.feature::after,.feature1::after,.feature1::before,.feature2::after,.feature2::before,.feature3::after,.feature3::before
+{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background:white;
+    transform: skewX(40deg);
+    transition: 1s linear;
+
+}
+.feature::before,.feature1::before,.feature2::before,.feature3::before
+{
+    top: -4px;
+    left: 10%;
+}
+.feature::after,.feature1::after,.feature2::after,.feature3::after
+{
+    bottom: -4px;
+    right: 10%;
+}
+.feature:hover::before,.feature1:hover::before,.feature2:hover::before,.feature3:hover::before
+{
+    left: 80%;
+}
+.feature:hover::after,.feature1:hover::after,.feature2:hover::after,.feature3:hover::after
+{
+    right: 90%;
+}
+*
+{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.c1
+{
+    left: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.bg-light
+{
+    background: #f6f6f6;
+}
+.site-section
+{
+    padding: 2.5em o;
+}
+.rounded
+{
+    border-radius: 0.25rem !important;
+}
+.container
+{
+    max-width: 1400px;
+}
+.container
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img
+{
+    margin-right: 30px;
+}
+.shadow
+{
+    -webkit-box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.1);
+}
+.mb-5,.my-5
+{
+    background-color: white;
+    margin-bottom: 3rem !important;
+}
+.mb-4
+{
+    font-size: 1.3vw;
+    color:#a9a9a9;
+}
+.col-12
+{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+}
+.col-lg-6,.col-lg-5
+{  
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.text-black
+{
+    color: #000 !important;
+}
+.ml-auto,.mx-auto
+{
+    margin-left: auto !important;
+}
+
+col-md-4
+{
+    position:relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.section-title
+{
+font-size: 30px;
+font-weight: 900;
+color: #000;
+}
+.row
+{
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ft1{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#121733;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}
