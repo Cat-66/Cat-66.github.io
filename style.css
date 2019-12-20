@@ -57,6 +57,11 @@ h1
     font-size: 16px;
     position: relative;
 }
+img
+{
+margin-right:30px;
+margin-left:30px;
+}
 .feature
 {
     color:#c0392b;
