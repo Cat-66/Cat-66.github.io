@@ -180,7 +180,7 @@ h1
     border-radius: 30px;
     max-width: 100%;
     height: auto;
-    box-shadow:  4px 4px #d3d3d3;
+    box-shadow:   3px 25px 25px  rgba(0, 0, 0, 0.185);
 }
 .shadow
 {
