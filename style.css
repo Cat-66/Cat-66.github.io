@@ -30,7 +30,7 @@ h1
 .p1
 {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 .img
 {
@@ -60,11 +60,6 @@ h1
     cursor: pointer;
     font-size: 16px;
     position: relative;
-}
-img
-{
-margin-right:30px;
-margin-left:30px;
 }
 .feature
 {
@@ -156,6 +151,35 @@ margin-left:30px;
     margin-right: auto;
     margin-left: auto;
 }
+.google.com
+{
+    display: none;
+}
+.right
+{
+        background-color:#e5e5e5;
+        float:left;
+        width:20%;
+        padding:15px;
+        margin-top:7px;
+        text-align:center;
+}
+.button
+{
+    background-color: #fed000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
 .shadow
 {
     -webkit-box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1);
@@ -166,9 +190,15 @@ margin-left:30px;
     background-color: white;
     margin-bottom: 3rem !important;
 }
+.column
+{
+    float: right;
+    max-width: 50%;
+}
+
 .mb-4
 {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color:#a9a9a9;
 }
 .col-12
